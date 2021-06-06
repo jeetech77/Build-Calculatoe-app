@@ -4,16 +4,20 @@
 body{
     text-align: center;
 }
+h1{
+    font-size: 2.5rem;
+}
 .container input{
     display: block;
     margin: 1rem auto;
-    padding:.2rem 1rem;
+    padding:1rem 3rem;
+    font-size: large;
     outline: none;
     text-align: center;
     border: 1px solid black;
 }
 .container input::placeholder{
-    font-size: .6rem;
+    font-size: .8rem;
     text-align: center;
 }
 .button-sec{
@@ -26,15 +30,14 @@ body{
     outline: none;
     cursor: pointer;
     margin: 1rem;
-    padding: 0 .5rem;
-    width: 30px;
+    padding: 10px 20px;
+    width: 50px;
     font-size: large;
 }
 .operation-btn:hover {
     background-color: #fff;
 }
 .output-text{
-    /* background-color: #eeebeb; */
     max-width: 50%;
     height: 10vh;
     margin: 1rem auto;
