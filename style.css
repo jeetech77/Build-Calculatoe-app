@@ -34,8 +34,9 @@ body{
     background-color: #fff;
 }
 .output-text{
-    background-color: #f0ecec;
+    /* background-color: #eeebeb; */
     max-width: 50%;
+    height: 10vh;
     margin: 1rem auto;
     border-radius: 10px;
     padding: 1rem;
